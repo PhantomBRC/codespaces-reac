@@ -1,0 +1,53 @@
+.header1 {
+  grid-area: header1;
+  background-color: rgba(15, 21, 33, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 1rem;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+.title {
+  display: flex;
+  font-weight: bolder;
+  font-size: 5rem;
+  color: rgb(7, 240, 201);
+  text-align: center;
+  margin-left: 40px;
+  @media (max-width: 768px) {
+    font-size: 5rem;
+  }
+}
+.header1 svg {
+  width: 6rem;
+  height: 6rem;
+  font-size: 6rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  color: rgba(36, 99, 235, 255);
+  @media (max-width: 768px) {
+    width: 12rem;
+    height: 12rem;
+    font-size: 12rem;
+    display: flex;
+  }
+}
+.cart {
+  font-weight: bolder;
+  font-size: 3rem;
+  color: rgb(3, 255, 108);
+  text-align: center;
+  margin-left: 40px;
+  padding: 1rem;
+}
+
+.cart button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: rgb(0, 116, 35);
+  font-size: 3rem;
+}

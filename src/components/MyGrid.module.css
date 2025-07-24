@@ -23,12 +23,12 @@
 
 .header1 {
   grid-area: header1;
-  background-color: darkslateblue;
+  background-color: rgb(61, 139, 78);
 }
 
 .header2 {
   grid-area: header2;
-  background-color: deeppink;
+  background-color: rgb(20, 255, 32);
 }
 
 .aside {

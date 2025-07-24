@@ -1,9 +1,9 @@
 :root {
-  --primary: #2088bd;
-  --primary-light: #9ccbe0;
-  --primary-dark: #144964;
+  --primary: #20bd54;
+  --primary-light: #9ce0b0;
+  --primary-dark: #146428;
   --primary-contrast-light: #ffffff;
-  --primary-contrast-dark: #000000;
+  --primary-contrast-dark: #000000d2;
 
   --gray-50: #f9fafb;
   --gray-100: #f3f4f6;
